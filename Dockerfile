@@ -1,6 +1,6 @@
 FROM alpine:3.7
 
-ENV FSCONSUL_VERSION 0.6.4.1
+ENV FSCONSUL_VERSION 0.6.5
 
 RUN apk add --no-cache ca-certificates wget gnupg openssl && \
     mkdir -p /tmp/build && \
