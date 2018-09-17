@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:latest
 
 ENV FSCONSUL_VERSION 0.6.5
 
